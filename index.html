@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign-Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        form {
+            margin: 20px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Up for Our Newsletter</h1>
+    <p>Enter your email address to get the latest updates.</p>
+    <form action="https://YOUR_MAILCHIMP_LIST_URL" method="post">
+        <input type="email" name="EMAIL" placeholder="Enter your email" required>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
